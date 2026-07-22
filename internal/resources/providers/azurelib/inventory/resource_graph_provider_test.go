@@ -178,7 +178,7 @@ func (s *ProviderTestSuite) TestListAllAssetTypesByName() {
 }
 
 // TestListAllAssetTypesByName_ContinuesAcrossAllPagesRegardlessOfResultTruncated is a
-// regression test for the pagination bug where ~250/309 Azure subscriptions
+// regression test for the pagination bug where most Azure subscriptions
 // returned only subscription-level findings with zero resource-level findings.
 //
 // Real Azure Resource Graph responses set ResultTruncated=false on every ordinary
